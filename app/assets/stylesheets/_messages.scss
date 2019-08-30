@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .header {
   height: 25px;
-  background-color: #38AEF0;
+  background-color: $light_blue;
   color: #ffffff;
   &__logo {
     text-align: center;
@@ -18,8 +18,8 @@
 
   &__user{
   padding: 50px 20px;
-  background-color: #253141;
-  color:#FFFFFF;
+  background-color: $side_blue_dark;
+  color:white;
   font-size:16px;
    &--icon{
    padding-left:140px;
@@ -27,18 +27,18 @@
   }
   &__btn1{
     padding: 20px 20px 0px 20px;
-    color:#FFFFFF;
+    color:white;
     font-size:15px;
   }
   &__btn2{
     padding: 5px 20px 20px 20px;
-    color:#FFFFFF;
+    color:white;
     font-size:11px;
   }
 }
 
 .contents-right{
-  background-color: #ffffff;
+  background-color: white;
   width: calc(100% - 300px);
   position: relative;
   float: right;
@@ -117,11 +117,11 @@
   height: 100px;
   width: calc(100% - 300px);
   position: relative;
-  float: right;
+  float: right;s
   &__text{
     width: calc(100% - 250px);
     height: 50px;
-    background-color:#ffffff;
+    background-color:white;
     color:#434A54;
     font-size:16px;
     padding: 0px 10px 0px 10px;
@@ -141,7 +141,7 @@
     text-align: center;
     line-height: 50px;
     background-color:#38aef0;
-    color:#ffffff;
+    color:white;
     position: absolute;
     top:25px;
     right: 40px;
